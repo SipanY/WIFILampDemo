@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99051AD6198B2A5400377DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99051AD5198B2A5400377DA2 /* Foundation.framework */; };
+		99051AD8198B2A5400377DA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99051AD7198B2A5400377DA2 /* CoreGraphics.framework */; };
+		99051ADA198B2A5400377DA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99051AD9198B2A5400377DA2 /* UIKit.framework */; };
+		99051AE0198B2A5400377DA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99051ADE198B2A5400377DA2 /* InfoPlist.strings */; };
+		99051AE2198B2A5400377DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051AE1198B2A5400377DA2 /* main.m */; };
+		99051AE8198B2A5400377DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99051AE7198B2A5400377DA2 /* Images.xcassets */; };
+		99051AEF198B2A5400377DA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99051AEE198B2A5400377DA2 /* XCTest.framework */; };
+		99051AF0198B2A5400377DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99051AD5198B2A5400377DA2 /* Foundation.framework */; };
+		99051AF1198B2A5400377DA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99051AD9198B2A5400377DA2 /* UIKit.framework */; };
+		99051AF9198B2A5400377DA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99051AF7198B2A5400377DA2 /* InfoPlist.strings */; };
+		99051AFB198B2A5400377DA2 /* WIFILampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051AFA198B2A5400377DA2 /* WIFILampTests.m */; };
+		99051B4E198B2B3B00377DA2 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B0A198B2B3B00377DA2 /* Common.m */; };
+		99051B4F198B2B3B00377DA2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B0E198B2B3B00377DA2 /* NSObject+SBJSON.m */; };
+		99051B50198B2B3B00377DA2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B10198B2B3B00377DA2 /* NSString+SBJSON.m */; };
+		99051B51198B2B3B00377DA2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B12198B2B3B00377DA2 /* SBJSON.m */; };
+		99051B52198B2B3B00377DA2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B14198B2B3B00377DA2 /* SBJsonBase.m */; };
+		99051B53198B2B3B00377DA2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B16198B2B3B00377DA2 /* SBJsonParser.m */; };
+		99051B54198B2B3B00377DA2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B18198B2B3B00377DA2 /* SBJsonWriter.m */; };
+		99051B55198B2B3B00377DA2 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B1A198B2B3B00377DA2 /* TBXML.m */; };
+		99051B56198B2B3B00377DA2 /* WaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B1C198B2B3B00377DA2 /* WaitingView.m */; };
+		99051B57198B2B3B00377DA2 /* DispatchCenter+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B1F198B2B3B00377DA2 /* DispatchCenter+Data.m */; };
+		99051B58198B2B3B00377DA2 /* DispatchCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B21198B2B3B00377DA2 /* DispatchCenter.m */; };
+		99051B59198B2B3B00377DA2 /* LANTransmission.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99051B23198B2B3B00377DA2 /* LANTransmission.mm */; };
+		99051B5A198B2B3B00377DA2 /* BaseSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99051B25198B2B3B00377DA2 /* BaseSocket.cpp */; };
+		99051B5B198B2B3B00377DA2 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B28198B2B3B00377DA2 /* GCDAsyncSocket.m */; };
+		99051B5C198B2B3B00377DA2 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B2A198B2B3B00377DA2 /* GCDAsyncUdpSocket.m */; };
+		99051B5D198B2B3B00377DA2 /* TCPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99051B2B198B2B3B00377DA2 /* TCPSocket.cpp */; };
+		99051B5E198B2B3B00377DA2 /* UDPSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99051B2D198B2B3B00377DA2 /* UDPSocket.cpp */; };
+		99051B5F198B2B3B00377DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B31198B2B3B00377DA2 /* AppDelegate.m */; };
+		99051B60198B2B3B00377DA2 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B34198B2B3B00377DA2 /* MainCell.m */; };
+		99051B61198B2B3B00377DA2 /* ExtendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B38198B2B3B00377DA2 /* ExtendViewController.m */; };
+		99051B62198B2B3B00377DA2 /* LampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B3A198B2B3B00377DA2 /* LampViewController.m */; };
+		99051B63198B2B3B00377DA2 /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B3C198B2B3B00377DA2 /* PickerView.m */; };
+		99051B64198B2B3B00377DA2 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B3E198B2B3B00377DA2 /* PickerViewController.m */; };
+		99051B65198B2B3B00377DA2 /* DevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B41198B2B3B00377DA2 /* DevicesViewController.m */; };
+		99051B66198B2B3B00377DA2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B43198B2B3B00377DA2 /* MainViewController.m */; };
+		99051B67198B2B3B00377DA2 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B46198B2B3B00377DA2 /* EditViewController.m */; };
+		99051B68198B2B3B00377DA2 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B48198B2B3B00377DA2 /* SettingsViewController.m */; };
+		99051B69198B2B3B00377DA2 /* UpgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B4A198B2B3B00377DA2 /* UpgradeViewController.m */; };
+		99051B6A198B2B3B00377DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99051B4B198B2B3B00377DA2 /* main.m */; };
+		99051B6B198B2B3B00377DA2 /* WiFILamp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99051B4C198B2B3B00377DA2 /* WiFILamp-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99051AF2198B2A5400377DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99051ACA198B2A5400377DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99051AD1198B2A5400377DA2;
+			remoteInfo = WIFILamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99051AD2198B2A5400377DA2 /* WIFILamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WIFILamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99051AD5198B2A5400377DA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99051AD7198B2A5400377DA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99051AD9198B2A5400377DA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99051ADD198B2A5400377DA2 /* WIFILamp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WIFILamp-Info.plist"; sourceTree = "<group>"; };
+		99051ADF198B2A5400377DA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99051AE1198B2A5400377DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99051AE3198B2A5400377DA2 /* WIFILamp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WIFILamp-Prefix.pch"; sourceTree = "<group>"; };
+		99051AE7198B2A5400377DA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99051AED198B2A5400377DA2 /* WIFILampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WIFILampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99051AEE198B2A5400377DA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99051AF6198B2A5400377DA2 /* WIFILampTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WIFILampTests-Info.plist"; sourceTree = "<group>"; };
+		99051AF8198B2A5400377DA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99051AFA198B2A5400377DA2 /* WIFILampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIFILampTests.m; sourceTree = "<group>"; };
+		99051B05198B2B3B00377DA2 /* SingletonT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonT.h; sourceTree = "<group>"; };
+		99051B09198B2B3B00377DA2 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		99051B0A198B2B3B00377DA2 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		99051B0C198B2B3B00377DA2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		99051B0D198B2B3B00377DA2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		99051B0E198B2B3B00377DA2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		99051B0F198B2B3B00377DA2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		99051B10198B2B3B00377DA2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		99051B11198B2B3B00377DA2 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		99051B12198B2B3B00377DA2 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		99051B13198B2B3B00377DA2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		99051B14198B2B3B00377DA2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		99051B15198B2B3B00377DA2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		99051B16198B2B3B00377DA2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		99051B17198B2B3B00377DA2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		99051B18198B2B3B00377DA2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		99051B19198B2B3B00377DA2 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		99051B1A198B2B3B00377DA2 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		99051B1B198B2B3B00377DA2 /* WaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingView.h; sourceTree = "<group>"; };
+		99051B1C198B2B3B00377DA2 /* WaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingView.m; sourceTree = "<group>"; };
+		99051B1E198B2B3B00377DA2 /* DispatchCenter+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DispatchCenter+Data.h"; sourceTree = "<group>"; };
+		99051B1F198B2B3B00377DA2 /* DispatchCenter+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DispatchCenter+Data.m"; sourceTree = "<group>"; };
+		99051B20198B2B3B00377DA2 /* DispatchCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchCenter.h; sourceTree = "<group>"; };
+		99051B21198B2B3B00377DA2 /* DispatchCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchCenter.m; sourceTree = "<group>"; };
+		99051B22198B2B3B00377DA2 /* LANTransmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANTransmission.h; sourceTree = "<group>"; };
+		99051B23198B2B3B00377DA2 /* LANTransmission.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LANTransmission.mm; sourceTree = "<group>"; };
+		99051B25198B2B3B00377DA2 /* BaseSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseSocket.cpp; sourceTree = "<group>"; };
+		99051B26198B2B3B00377DA2 /* BaseSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSocket.h; sourceTree = "<group>"; };
+		99051B27198B2B3B00377DA2 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		99051B28198B2B3B00377DA2 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		99051B29198B2B3B00377DA2 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		99051B2A198B2B3B00377DA2 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		99051B2B198B2B3B00377DA2 /* TCPSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TCPSocket.cpp; sourceTree = "<group>"; };
+		99051B2C198B2B3B00377DA2 /* TCPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPSocket.h; sourceTree = "<group>"; };
+		99051B2D198B2B3B00377DA2 /* UDPSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UDPSocket.cpp; sourceTree = "<group>"; };
+		99051B2E198B2B3B00377DA2 /* UDPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPSocket.h; sourceTree = "<group>"; };
+		99051B30198B2B3B00377DA2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99051B31198B2B3B00377DA2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99051B33198B2B3B00377DA2 /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		99051B34198B2B3B00377DA2 /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		99051B35198B2B3B00377DA2 /* GlobalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefines.h; sourceTree = "<group>"; };
+		99051B37198B2B3B00377DA2 /* ExtendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendViewController.h; sourceTree = "<group>"; };
+		99051B38198B2B3B00377DA2 /* ExtendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendViewController.m; sourceTree = "<group>"; };
+		99051B39198B2B3B00377DA2 /* LampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LampViewController.h; sourceTree = "<group>"; };
+		99051B3A198B2B3B00377DA2 /* LampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LampViewController.m; sourceTree = "<group>"; };
+		99051B3B198B2B3B00377DA2 /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		99051B3C198B2B3B00377DA2 /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		99051B3D198B2B3B00377DA2 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		99051B3E198B2B3B00377DA2 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		99051B40198B2B3B00377DA2 /* DevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesViewController.h; sourceTree = "<group>"; };
+		99051B41198B2B3B00377DA2 /* DevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesViewController.m; sourceTree = "<group>"; };
+		99051B42198B2B3B00377DA2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		99051B43198B2B3B00377DA2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		99051B45198B2B3B00377DA2 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		99051B46198B2B3B00377DA2 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		99051B47198B2B3B00377DA2 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		99051B48198B2B3B00377DA2 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		99051B49198B2B3B00377DA2 /* UpgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpgradeViewController.h; sourceTree = "<group>"; };
+		99051B4A198B2B3B00377DA2 /* UpgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpgradeViewController.m; sourceTree = "<group>"; };
+		99051B4B198B2B3B00377DA2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99051B4C198B2B3B00377DA2 /* WiFILamp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WiFILamp-Info.plist"; sourceTree = "<group>"; };
+		99051B4D198B2B3B00377DA2 /* WiFILamp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WiFILamp-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99051ACF198B2A5400377DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99051AD8198B2A5400377DA2 /* CoreGraphics.framework in Frameworks */,
+				99051ADA198B2A5400377DA2 /* UIKit.framework in Frameworks */,
+				99051AD6198B2A5400377DA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99051AEA198B2A5400377DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99051AEF198B2A5400377DA2 /* XCTest.framework in Frameworks */,
+				99051AF1198B2A5400377DA2 /* UIKit.framework in Frameworks */,
+				99051AF0198B2A5400377DA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99051AC9198B2A5400377DA2 = {
+			isa = PBXGroup;
+			children = (
+				99051ADB198B2A5400377DA2 /* WIFILamp */,
+				99051AF4198B2A5400377DA2 /* WIFILampTests */,
+				99051AD4198B2A5400377DA2 /* Frameworks */,
+				99051AD3198B2A5400377DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99051AD3198B2A5400377DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99051AD2198B2A5400377DA2 /* WIFILamp.app */,
+				99051AED198B2A5400377DA2 /* WIFILampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99051AD4198B2A5400377DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99051AD5198B2A5400377DA2 /* Foundation.framework */,
+				99051AD7198B2A5400377DA2 /* CoreGraphics.framework */,
+				99051AD9198B2A5400377DA2 /* UIKit.framework */,
+				99051AEE198B2A5400377DA2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99051ADB198B2A5400377DA2 /* WIFILamp */ = {
+			isa = PBXGroup;
+			children = (
+				99051B04198B2B3B00377DA2 /* MJRefresh */,
+				99051B05198B2B3B00377DA2 /* SingletonT.h */,
+				99051B06198B2B3B00377DA2 /* WiFILamp */,
+				99051AE7198B2A5400377DA2 /* Images.xcassets */,
+				99051ADC198B2A5400377DA2 /* Supporting Files */,
+			);
+			path = WIFILamp;
+			sourceTree = "<group>";
+		};
+		99051ADC198B2A5400377DA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99051ADD198B2A5400377DA2 /* WIFILamp-Info.plist */,
+				99051ADE198B2A5400377DA2 /* InfoPlist.strings */,
+				99051AE1198B2A5400377DA2 /* main.m */,
+				99051AE3198B2A5400377DA2 /* WIFILamp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99051AF4198B2A5400377DA2 /* WIFILampTests */ = {
+			isa = PBXGroup;
+			children = (
+				99051AFA198B2A5400377DA2 /* WIFILampTests.m */,
+				99051AF5198B2A5400377DA2 /* Supporting Files */,
+			);
+			path = WIFILampTests;
+			sourceTree = "<group>";
+		};
+		99051AF5198B2A5400377DA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99051AF6198B2A5400377DA2 /* WIFILampTests-Info.plist */,
+				99051AF7198B2A5400377DA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99051B04198B2B3B00377DA2 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		99051B06198B2B3B00377DA2 /* WiFILamp */ = {
+			isa = PBXGroup;
+			children = (
+				99051B07198B2B3B00377DA2 /* classes */,
+				99051B2F198B2B3B00377DA2 /* controllers */,
+				99051B4B198B2B3B00377DA2 /* main.m */,
+				99051B4C198B2B3B00377DA2 /* WiFILamp-Info.plist */,
+				99051B4D198B2B3B00377DA2 /* WiFILamp-Prefix.pch */,
+			);
+			path = WiFILamp;
+			sourceTree = "<group>";
+		};
+		99051B07198B2B3B00377DA2 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				99051B08198B2B3B00377DA2 /* Common */,
+				99051B1D198B2B3B00377DA2 /* DispatchManager */,
+				99051B24198B2B3B00377DA2 /* Scoket */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		99051B08198B2B3B00377DA2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				99051B09198B2B3B00377DA2 /* Common.h */,
+				99051B0A198B2B3B00377DA2 /* Common.m */,
+				99051B0B198B2B3B00377DA2 /* JSON */,
+				99051B19198B2B3B00377DA2 /* TBXML.h */,
+				99051B1A198B2B3B00377DA2 /* TBXML.m */,
+				99051B1B198B2B3B00377DA2 /* WaitingView.h */,
+				99051B1C198B2B3B00377DA2 /* WaitingView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		99051B0B198B2B3B00377DA2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				99051B0C198B2B3B00377DA2 /* JSON.h */,
+				99051B0D198B2B3B00377DA2 /* NSObject+SBJSON.h */,
+				99051B0E198B2B3B00377DA2 /* NSObject+SBJSON.m */,
+				99051B0F198B2B3B00377DA2 /* NSString+SBJSON.h */,
+				99051B10198B2B3B00377DA2 /* NSString+SBJSON.m */,
+				99051B11198B2B3B00377DA2 /* SBJSON.h */,
+				99051B12198B2B3B00377DA2 /* SBJSON.m */,
+				99051B13198B2B3B00377DA2 /* SBJsonBase.h */,
+				99051B14198B2B3B00377DA2 /* SBJsonBase.m */,
+				99051B15198B2B3B00377DA2 /* SBJsonParser.h */,
+				99051B16198B2B3B00377DA2 /* SBJsonParser.m */,
+				99051B17198B2B3B00377DA2 /* SBJsonWriter.h */,
+				99051B18198B2B3B00377DA2 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		99051B1D198B2B3B00377DA2 /* DispatchManager */ = {
+			isa = PBXGroup;
+			children = (
+				99051B1E198B2B3B00377DA2 /* DispatchCenter+Data.h */,
+				99051B1F198B2B3B00377DA2 /* DispatchCenter+Data.m */,
+				99051B20198B2B3B00377DA2 /* DispatchCenter.h */,
+				99051B21198B2B3B00377DA2 /* DispatchCenter.m */,
+				99051B22198B2B3B00377DA2 /* LANTransmission.h */,
+				99051B23198B2B3B00377DA2 /* LANTransmission.mm */,
+			);
+			path = DispatchManager;
+			sourceTree = "<group>";
+		};
+		99051B24198B2B3B00377DA2 /* Scoket */ = {
+			isa = PBXGroup;
+			children = (
+				99051B25198B2B3B00377DA2 /* BaseSocket.cpp */,
+				99051B26198B2B3B00377DA2 /* BaseSocket.h */,
+				99051B27198B2B3B00377DA2 /* GCDAsyncSocket.h */,
+				99051B28198B2B3B00377DA2 /* GCDAsyncSocket.m */,
+				99051B29198B2B3B00377DA2 /* GCDAsyncUdpSocket.h */,
+				99051B2A198B2B3B00377DA2 /* GCDAsyncUdpSocket.m */,
+				99051B2B198B2B3B00377DA2 /* TCPSocket.cpp */,
+				99051B2C198B2B3B00377DA2 /* TCPSocket.h */,
+				99051B2D198B2B3B00377DA2 /* UDPSocket.cpp */,
+				99051B2E198B2B3B00377DA2 /* UDPSocket.h */,
+			);
+			path = Scoket;
+			sourceTree = "<group>";
+		};
+		99051B2F198B2B3B00377DA2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99051B30198B2B3B00377DA2 /* AppDelegate.h */,
+				99051B31198B2B3B00377DA2 /* AppDelegate.m */,
+				99051B32198B2B3B00377DA2 /* cells */,
+				99051B35198B2B3B00377DA2 /* GlobalDefines.h */,
+				99051B36198B2B3B00377DA2 /* lampconfigure */,
+				99051B3F198B2B3B00377DA2 /* mian */,
+				99051B44198B2B3B00377DA2 /* settings */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		99051B32198B2B3B00377DA2 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				99051B33198B2B3B00377DA2 /* MainCell.h */,
+				99051B34198B2B3B00377DA2 /* MainCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		99051B36198B2B3B00377DA2 /* lampconfigure */ = {
+			isa = PBXGroup;
+			children = (
+				99051B37198B2B3B00377DA2 /* ExtendViewController.h */,
+				99051B38198B2B3B00377DA2 /* ExtendViewController.m */,
+				99051B39198B2B3B00377DA2 /* LampViewController.h */,
+				99051B3A198B2B3B00377DA2 /* LampViewController.m */,
+				99051B3B198B2B3B00377DA2 /* PickerView.h */,
+				99051B3C198B2B3B00377DA2 /* PickerView.m */,
+				99051B3D198B2B3B00377DA2 /* PickerViewController.h */,
+				99051B3E198B2B3B00377DA2 /* PickerViewController.m */,
+			);
+			path = lampconfigure;
+			sourceTree = "<group>";
+		};
+		99051B3F198B2B3B00377DA2 /* mian */ = {
+			isa = PBXGroup;
+			children = (
+				99051B40198B2B3B00377DA2 /* DevicesViewController.h */,
+				99051B41198B2B3B00377DA2 /* DevicesViewController.m */,
+				99051B42198B2B3B00377DA2 /* MainViewController.h */,
+				99051B43198B2B3B00377DA2 /* MainViewController.m */,
+			);
+			path = mian;
+			sourceTree = "<group>";
+		};
+		99051B44198B2B3B00377DA2 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				99051B45198B2B3B00377DA2 /* EditViewController.h */,
+				99051B46198B2B3B00377DA2 /* EditViewController.m */,
+				99051B47198B2B3B00377DA2 /* SettingsViewController.h */,
+				99051B48198B2B3B00377DA2 /* SettingsViewController.m */,
+				99051B49198B2B3B00377DA2 /* UpgradeViewController.h */,
+				99051B4A198B2B3B00377DA2 /* UpgradeViewController.m */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99051AD1198B2A5400377DA2 /* WIFILamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99051AFE198B2A5400377DA2 /* Build configuration list for PBXNativeTarget "WIFILamp" */;
+			buildPhases = (
+				99051ACE198B2A5400377DA2 /* Sources */,
+				99051ACF198B2A5400377DA2 /* Frameworks */,
+				99051AD0198B2A5400377DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WIFILamp;
+			productName = WIFILamp;
+			productReference = 99051AD2198B2A5400377DA2 /* WIFILamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99051AEC198B2A5400377DA2 /* WIFILampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99051B01198B2A5400377DA2 /* Build configuration list for PBXNativeTarget "WIFILampTests" */;
+			buildPhases = (
+				99051AE9198B2A5400377DA2 /* Sources */,
+				99051AEA198B2A5400377DA2 /* Frameworks */,
+				99051AEB198B2A5400377DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99051AF3198B2A5400377DA2 /* PBXTargetDependency */,
+			);
+			name = WIFILampTests;
+			productName = WIFILampTests;
+			productReference = 99051AED198B2A5400377DA2 /* WIFILampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99051ACA198B2A5400377DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ltian;
+				TargetAttributes = {
+					99051AEC198B2A5400377DA2 = {
+						TestTargetID = 99051AD1198B2A5400377DA2;
+					};
+				};
+			};
+			buildConfigurationList = 99051ACD198B2A5400377DA2 /* Build configuration list for PBXProject "WIFILamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99051AC9198B2A5400377DA2;
+			productRefGroup = 99051AD3198B2A5400377DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99051AD1198B2A5400377DA2 /* WIFILamp */,
+				99051AEC198B2A5400377DA2 /* WIFILampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99051AD0198B2A5400377DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99051AE0198B2A5400377DA2 /* InfoPlist.strings in Resources */,
+				99051B6B198B2B3B00377DA2 /* WiFILamp-Info.plist in Resources */,
+				99051AE8198B2A5400377DA2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99051AEB198B2A5400377DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99051AF9198B2A5400377DA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99051ACE198B2A5400377DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99051B5F198B2B3B00377DA2 /* AppDelegate.m in Sources */,
+				99051B67198B2B3B00377DA2 /* EditViewController.m in Sources */,
+				99051B55198B2B3B00377DA2 /* TBXML.m in Sources */,
+				99051B62198B2B3B00377DA2 /* LampViewController.m in Sources */,
+				99051B57198B2B3B00377DA2 /* DispatchCenter+Data.m in Sources */,
+				99051B53198B2B3B00377DA2 /* SBJsonParser.m in Sources */,
+				99051B4E198B2B3B00377DA2 /* Common.m in Sources */,
+				99051B61198B2B3B00377DA2 /* ExtendViewController.m in Sources */,
+				99051B5D198B2B3B00377DA2 /* TCPSocket.cpp in Sources */,
+				99051B59198B2B3B00377DA2 /* LANTransmission.mm in Sources */,
+				99051B6A198B2B3B00377DA2 /* main.m in Sources */,
+				99051B52198B2B3B00377DA2 /* SBJsonBase.m in Sources */,
+				99051B5B198B2B3B00377DA2 /* GCDAsyncSocket.m in Sources */,
+				99051B5E198B2B3B00377DA2 /* UDPSocket.cpp in Sources */,
+				99051B60198B2B3B00377DA2 /* MainCell.m in Sources */,
+				99051B56198B2B3B00377DA2 /* WaitingView.m in Sources */,
+				99051B4F198B2B3B00377DA2 /* NSObject+SBJSON.m in Sources */,
+				99051B50198B2B3B00377DA2 /* NSString+SBJSON.m in Sources */,
+				99051B58198B2B3B00377DA2 /* DispatchCenter.m in Sources */,
+				99051B69198B2B3B00377DA2 /* UpgradeViewController.m in Sources */,
+				99051B66198B2B3B00377DA2 /* MainViewController.m in Sources */,
+				99051B54198B2B3B00377DA2 /* SBJsonWriter.m in Sources */,
+				99051B65198B2B3B00377DA2 /* DevicesViewController.m in Sources */,
+				99051B5C198B2B3B00377DA2 /* GCDAsyncUdpSocket.m in Sources */,
+				99051B63198B2B3B00377DA2 /* PickerView.m in Sources */,
+				99051AE2198B2A5400377DA2 /* main.m in Sources */,
+				99051B51198B2B3B00377DA2 /* SBJSON.m in Sources */,
+				99051B64198B2B3B00377DA2 /* PickerViewController.m in Sources */,
+				99051B5A198B2B3B00377DA2 /* BaseSocket.cpp in Sources */,
+				99051B68198B2B3B00377DA2 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99051AE9198B2A5400377DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99051AFB198B2A5400377DA2 /* WIFILampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99051AF3198B2A5400377DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99051AD1198B2A5400377DA2 /* WIFILamp */;
+			targetProxy = 99051AF2198B2A5400377DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99051ADE198B2A5400377DA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99051ADF198B2A5400377DA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99051AF7198B2A5400377DA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99051AF8198B2A5400377DA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99051AFC198B2A5400377DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99051AFD198B2A5400377DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99051AFF198B2A5400377DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIFILamp/WIFILamp-Prefix.pch";
+				INFOPLIST_FILE = "WIFILamp/WIFILamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99051B00198B2A5400377DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIFILamp/WIFILamp-Prefix.pch";
+				INFOPLIST_FILE = "WIFILamp/WIFILamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99051B02198B2A5400377DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WIFILamp.app/WIFILamp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIFILamp/WIFILamp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WIFILampTests/WIFILampTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99051B03198B2A5400377DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WIFILamp.app/WIFILamp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WIFILamp/WIFILamp-Prefix.pch";
+				INFOPLIST_FILE = "WIFILampTests/WIFILampTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99051ACD198B2A5400377DA2 /* Build configuration list for PBXProject "WIFILamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99051AFC198B2A5400377DA2 /* Debug */,
+				99051AFD198B2A5400377DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99051AFE198B2A5400377DA2 /* Build configuration list for PBXNativeTarget "WIFILamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99051AFF198B2A5400377DA2 /* Debug */,
+				99051B00198B2A5400377DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99051B01198B2A5400377DA2 /* Build configuration list for PBXNativeTarget "WIFILampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99051B02198B2A5400377DA2 /* Debug */,
+				99051B03198B2A5400377DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99051ACA198B2A5400377DA2 /* Project object */;
+}
